@@ -1,0 +1,35 @@
+#index {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cover {
+  background-size: contain;
+  animation: unset;
+}
+
+.cover::after {
+  display: none;
+}
+
+.cover-active .nav-button a {
+  border-color: rgba(0, 0, 0, .5);
+  color: #aaa;
+}
+
+.nav-button a i {
+  color: #aaa;
+}
+
+.post-title {
+  font-family: Roboto-Thin;
+  font-size: 48px;
+}
+
+figure.code figcaption {
+  display: none;
+}
+
+figure.code pre {
+  font-family: Roboto Mono;
+}

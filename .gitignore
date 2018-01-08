@@ -1,3 +1,14 @@
+output/
+themes/
+develop_server.sh
+fabfile.py
+Makefile
+pelican.pid
+pelicanconf.py
+publishconf.py
+srv.pid
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
