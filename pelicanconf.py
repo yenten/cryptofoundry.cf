@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+PREFIX = ""
+THEME = PREFIX + "/opt/pelican-themes/"
+PLUGIN_PATHS = [PREFIX + "/opt/pelican-plugins"]
+PLUGINS = []
+STATIC_PATHS = ["assets", "code"]
+PAGES_PATH = "pages"
+ARTICLES_PATH = "posts"
+AUTHOR = "CryptoFoundry Team"
+SITENAME = "Crypto Foundry"
+RELATIVE_URLS = True
+LINKS = []
+SOCIAL = []
+SITEURL = ""
+PATH = "content"
+TIMEZONE = "Europe/Moscow"
+DEFAULT_LANG = "en"
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+DEFAULT_PAGINATION = False
